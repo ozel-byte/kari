@@ -47,7 +47,8 @@ class _SearchPacienteState extends State<SearchPaciente> {
                     
                      leading: Icon(Icons.person),
                     title: Text(paciente["data"]["nombre"]),
-                    trailing: IconButton(onPressed: (){
+                    trailing: IconButton(
+                      onPressed: (){
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(content: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -69,7 +70,8 @@ class _SearchPacienteState extends State<SearchPaciente> {
                         )),
 
                         );
-                    },icon: Icon(Icons.restore_from_trash)),
+                    },
+                    icon: Icon(Icons.restore_from_trash)),
                   );
 
                 }

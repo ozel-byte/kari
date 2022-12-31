@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class ViewUpdate extends StatefulWidget {
-  Map<String, dynamic>? paciente;
+ Map<String, dynamic>? paciente; 
   ViewUpdate({super.key, this.paciente});
 
   @override

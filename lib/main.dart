@@ -1,3 +1,5 @@
+import 'package:bioappmikary/pages/src/bluetooth/bluetoothv2.dart';
+import 'package:bioappmikary/pages/src/menu/menu.dart';
 import 'package:bioappmikary/pages/src/splashScreen/splashscreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: SplashScreen()
+      home: Menu()
     );
   }
 }
